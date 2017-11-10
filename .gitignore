@@ -1,0 +1,9 @@
+.idea
+*.pyc
+*.pyi
+icoffe/db.sqlite3
+icoffe/static/assets/
+icoffe/media/
+icoffe/icoffe/settings/local.py
+Thumbs
+env/

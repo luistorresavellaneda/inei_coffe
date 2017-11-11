@@ -1,5 +1,5 @@
 from django.db import models
-
+from core.managers import CoreManager
 # Create your models here.
 
 
@@ -31,6 +31,8 @@ class Producto(models.Model):
     imagen = models.ImageField(blank=True, null=True, default=None)
     fecha_creado = models.DateTimeField(auto_now_add=True)
     fecha_modificado = models.DateTimeField(auto_now=True)
+
+    objects = CoreManager()
 
     def __str__(self):
         return self.nombre

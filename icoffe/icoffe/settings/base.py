@@ -43,6 +43,8 @@ PROJECTS_APPS = [
     'apps.recursoshumanos',
     'apps.contactenos',
     'apps.reservas',
+    'apps.delivery',
+    'apps.compras',
 ]
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + PROJECTS_APPS
